@@ -1,0 +1,292 @@
+{
+	"Header.Items": [
+		{
+			"name": "About me",
+			"event": "click_about",
+			"scrollTo": "about"
+		},
+		{
+			"name": "Experience",
+			"event": "click_experience",
+			"scrollTo": "jobs"
+		},
+		{
+			"name": "Work",
+			"event": "click_jobs",
+			"scrollTo": "projects"
+		},
+		{
+			"name": "Testimonial",
+			"event": "click_testimonial",
+			"scrollTo": "testimonial"
+		},
+		{
+			"name": "Contact",
+			"event": "click_contact",
+			"scrollTo": "contact"
+		}
+	],
+	"Header.cvBtn": "Resume",
+	"Header.bookBtn": "Meet with me",
+	"Header.cvName": "Sanyam_Malik_Resume.pdf",
+	"Banner.Pretitle": "Hello! My name is",
+	"Banner.Title": "Sanyam Malik",
+	"Banner.Posttitle": "I build digital platforms",
+	"Banner.Description": "I'm a software engineer with <span class='underline'>over 4 years of experience</span>, specializing in developing systems, interfaces, bots, and technological solutions. I pride myself on my ability to translate project requirements into visually appealing and efficient solutions. Currently, I'm employed at <span class='underline'>ClayHR</span>, where I focus on building accessible, human-centered products.",
+	"Banner.ActionBtn": "Get in touch",
+	"Banner.Location": " Your Location: ",
+	"AboutMe.Title": "About me",
+	"AboutMe.Mail": "sanyammalik105@gmail.com",
+	"AboutMe.MeetLink": "https://calendly.com/sanyammalik/connect",
+	"AboutMe.Paragraphs": [
+		"Hey there, I'm Sanyam Malik. I hold a Bachelor's Degree in Computer Science and currently exploring the world of Web App Design and Development. Throughout my career, I've been involved in various large-scale projects, prioritizing responsive design, performance optimization, and cross-functional collaboration. I love turning a project's 'wish list' into something that not only looks great but also performs well.",
+		"On a typical day, you'll find me working hand-in-hand with backend engineers on API integrations, turning designs into actual, clickable things, and squashing bugs with our QA team. I'm all about teamwork, taking ownership of what I do, and always looking for ways to help others grow in their roles, too.",
+		"Some of the technologies that I have trained and worked on include (but are not limited to):"
+	],
+	"AboutMe.conclude": [
+		"So that's a bit about me. Can't wait to bring my skills and passion to some more exciting projects!"
+	],
+	"AboutMe.Skills": [
+		"Java",
+		"Spring MVC / Spring Boot",
+		"Spring Security",
+		"API Integrations",
+		"Microservices",
+		"Hibernate",
+		"PostgresSQL",
+		"AngularJS / Angular",
+		"HTML & (S)CSS",
+		"JavaScript, TypeScript",
+		"Unit Testing",
+		"CI / CD"
+	],
+	"AboutMe.Socials": [
+		{
+			"name": "github",
+			"link": "https://github.com/Sanyam-malik",
+			"icon": "fab fa-github"
+		},
+		{
+			"name": "linkedin",
+			"link": "https://www.linkedin.com/in/sanyam-malik-62659415a/",
+			"icon": "fab fa-linkedin-in"
+		}, 
+		{
+			"name": "dev",
+			"link": "https://dev.to/sanyammalik",
+			"icon": "fab fa-brands fa-dev"
+		}
+	],
+	"Experience.Title": "Where I've Worked",
+	"Experience.Jobs": [
+		{
+			"Tab": "ClayHR",
+			"Profiles": [
+				{
+					"Title": "Senior Software Enginner",
+					"Date": "August 2022 - Present",
+					"Description": [
+						"Orchestrated seamless integration with five leading third-party platforms, resulting in a 35% increase in application submissions and broadening the ATS system's reach",
+						"Elevated functionality and user experience of the <span class='underline'>ClayHR Jobboard</span> Google Chrome extension through strategic enhancements and refinements",
+						"Spearheaded the development and maintenance of the company's WordPress plugin, empowering clients and contributing to a 30% rise in user adoption of the ATS system's capabilities",
+						"Innovated the architectural design for Angular applications, implementing robust UI testing methodologies",
+						"Conducted performance assessments, provided strategic guidance, mentorship, and fostered a collaborative and efficient team environment"
+					]
+				}, 
+				{
+					"Title": "Software Enginner",
+					"Date": "August 2020 - August 2022",
+					"Description": [
+						"Developed over 4 Angular Applications, employing modular design by centralizing common components into libraries within the nx workspace.",
+						"Leveraged Java/Spring frameworks to architect and develop scalable web applications and microservices, resulting in a 30% improvement in system performance and responsiveness.",
+						"Led efforts to ensure the quality and reliability of software solutions, resulting in a 15% reduction in post-deployment issues and enhancing overall system stability.",
+						"Optimized interaction with microservices' API endpoints using Spring Data and JPA, resulting in a 25% decrease in API response time and improving overall system efficiency."
+					]
+				}, 
+				{
+					"Title": "Software Enginner - Intern",
+					"Date": "January 2020 - July 2020",
+					"Description": [
+						"Actively engaged in over 10 targeted training sessions and workshops, staying up-to-date on industry trends and gaining valuable knowledge.",
+						"Undertook key responsibilities in active projects, including conducting research and data collection.",
+						"Collaborated with cross-functional teams of developers and managers, consistently meeting 100% of Service Level Agreements (SLAs) on time, thereby preventing any spillovers in critical deadlines"
+					]
+				}
+			]
+		}
+	],
+	"FeatureProjects.Title": "Some Things I've Built",
+	"FeatureProjects.Label": "Featured Project",
+	"FeatureProjects.Projects": [
+		{
+			"Title": "Aperio CAS Clone",
+			"Description": "The <span class='underline'>Central Authentication Server</span>, a key component in user authentication for accessing specific services akin to Aperio CAS, employs a dual-database approach. One database is dedicated to reading user information, while the other handles token storage. This design ensures efficiency and separation of concerns in managing user credentials and authentication tokens. The API server supports multiple password encoders, such as <span class='underline'>BCRYPT</span>, <span class='underline'>SCRYPT</span>, <span class='underline'>NoOp</span>, <span class='underline'>PBKDF2</span>, <span class='underline'>Sha256</span>, <span class='underline'>MD5</span>, providing flexibility in implementing robust security measures. Notably, the server is configured to return responses identical to those of the original Aperio CAS server, ensuring seamless integration and interoperability within a broader authentication ecosystem.",
+			"showTechStack": false,
+			"imgs": [
+				"assets/images/cas/1.png",
+				"assets/images/cas/2.png"
+			],
+			"ghLink": "",
+			"demoLink": "",
+			"Technologies": [
+				"HTML",
+				"CSS",
+				"Java",
+				"Spring Boot",
+				"Spring Web",
+				"Spring Security",
+				"PostgresSQL",
+				"MYSQL",
+				"Spring JPA",
+				"Git"
+			]
+		},
+		{
+			"Title": "Applicant Tracking System",
+			"Description": "The <span class='underline'>ATS (Applicant Tracking System)</span> is a versatile tool designed to seamlessly integrate into existing HR ecosystems. With a focus on streamlining recruitment, the system brings efficiency to the process through features such as resume parsing, collaborative hiring workflows, and automated screening tools. Notably, it excels in facilitating third-party portal integrations, seamlessly connecting with popular platforms like <span class='underline'>Indeed</span>, <span class='underline'>Google</span>, <span class='underline'>Careerjet</span>, and more. Additionally, the system is adept at candidate background verification integrations, with seamless connections to services such as <span class='underline'>Checkr</span> and <span class='underline'>Compufact</span>. This capability further enhances the recruitment process, ensuring a comprehensive and unified experience for organizations in managing candidate information and background checks. The adaptable system continues to provide a user-friendly interface for both recruiters and candidates, promoting a positive and efficient talent acquisition process.",
+			"showTechStack": false,
+			"imgs": [
+				"assets/images/applicant-tracking-system/1.png",
+				"assets/images/applicant-tracking-system/2.png",
+				"assets/images/applicant-tracking-system/3.png",
+				"assets/images/applicant-tracking-system/4.png"
+			],
+			"ghLink": "",
+			"demoLink": "",
+			"Technologies": [
+				"HTML",
+				"CSS",
+				"Java",
+				"AngularJS / Angular",
+				"Bootstrap",
+				"Jquery",
+				"Javascript",
+				"Spring Boot",
+				"Microservices",
+				"Spring Web",
+				"Spring Security",
+				"MYSQL",
+				"Spring JPA",
+				"API Integrations",
+				"Git",
+				"Bitbucket",
+				"Jira"
+			]
+		},
+		{
+			"Title": "Ang-PI",
+			"Description": "<span class='underline'>Angular Pi-Hole(AngPI)</span> Angular Single Page Application (SPA) specifically designed for <span class='underline'>Pi-Hole (https://pi-hole.net/)</span>. This application comes with enhanced database support, allowing users to easily customize and manage their Pi-Hole configurations. The Angular SPA ensures a responsive and dynamic user interface, while the elevated database integration provides flexibility for personalized settings and blacklists. This project seamlessly combines Angular's capabilities, Pi-Hole's functionality, and advanced database features, delivering an intuitive and customizable solution for effective ad blocking.",
+			"showTechStack": false,
+			"imgs": [
+				"assets/images/angpi/1.png",
+				"assets/images/angpi/2.png"
+			],
+			"ghLink": "",
+			"demoLink": "",
+			"Technologies": [
+				"HTML/HTML5",
+				"CSS/CSS3",
+				"SASS",
+				"Angular",
+				"Typescript",
+				"NodeJS",
+				"Highcharts",
+				"Docker",
+				"Git"
+			]
+		},
+		{
+			"Title": "Candidate Portal",
+			"Description": "This dedicated platform serves as a <span class='underline'>central hub</span>, empowering candidates to seamlessly navigate and oversee various aspects of their career journey. From tracking application statuses to engaging in real-time communication with hiring teams, the Candidate Portal enhances transparency and collaboration. With an intuitive design, candidates can effortlessly access updates on <span class='underline'>job applications</span> and <span class='underline'>receive feedback</span>. This not only streamlines the communication process but also fosters a more engaged and informed candidate experience. The Candidate Portal in career management acts as a valuable tool, ensuring candidates have the tools and resources they need to navigate their career paths effectively.",
+			"showTechStack": false,
+			"imgs": [
+				"assets/images/candidate-portal/1.png",
+				"assets/images/candidate-portal/2.png"
+			],
+			"ghLink": "",
+			"demoLink": "",
+			"Technologies": [
+				"HTML",
+				"CSS",
+				"Java",
+				"AngularJS / Angular",
+				"Bootstrap",
+				"Jquery",
+				"Javascript",
+				"Spring Boot",
+				"Spring Web",
+				"Spring Security",
+				"MYSQL",
+				"Spring JPA",
+				"Microservices",
+				"Git",
+				"Bitbucket",
+				"Jira"
+			]
+		},
+		{
+			"Title": "PiFlask",
+			"Description": "The <span class='underline'>Python Flask API Server</span> for <span class='underline'>Pi-Hole</span> stands out as an innovative project, leveraging the power of the Flask framework to provide a scalable and efficient solution for managing Pi-Hole instances. Notably, it incorporates an elevated database system, allowing users to personalize settings, blacklists, and configurations for a tailored experience. The API documentation, powered by <span class='underline'>Swagger</span>, ensures a user-friendly interface for developers, while the integration of <span class='underline'>JSON Web Tokens (JWT)</span> enhances security by restricting access to authenticated users. This project combines functionality, customization, and security to elevate the Pi-Hole experience for both developers and end-users.",
+			"showTechStack": false,
+			"imgs": [
+				"assets/images/piflask/1.png",
+				"assets/images/piflask/2.png"
+			],
+			"ghLink": "",
+			"demoLink": "",
+			"Technologies": [
+				"Python",
+				"Docker",
+				"SQLAlchemy",
+				"JSON Web Token(JWT)",
+				"Swagger API Documentation",
+				"Git"
+			]
+		}
+	],
+	"OtherProjects.Title": "Other Noteworthy Projects",
+	"OtherProjects.Projects": [
+		{
+			"Title": "Toronto Recycling Quiz App",
+			"Description": "An ios quiz application about Recycling in Toronto. Allows user to pick their answer. View the result of the quiz. Allows multiple attempts until the user pass the quiz.",
+			"ghLink": "https://github.com/annrobles/QuizApp",
+			"demoLink": "https://github.com/annrobles/QuizApp",
+			"Technologies": ["Swift", "iOS"]
+		},
+		{
+			"Title": "Habit Tracker App",
+			"Description": "An android habit tracker application, allows users to build a certain habit. User can track and update their habits. Users can also view leaderboard and community.",
+			"ghLink": "https://github.com/annrobles/Habit-Tracker",
+			"demoLink": "https://github.com/annrobles/Habit-Tracker",
+			"Technologies": ["Android", "Java", "FireBase", "Google Cloud", "ROM"]
+		}
+	],
+	"Contact.Pretitle": "What’s Next",
+	"Contact.Title": "Get in touch!",
+	"Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+	"Contact.Btn": "Say Hello",
+	"Testimonial.Title": "Other's impressions of me",
+	"Testimonial.Items": [
+		{
+			"Comment": "<span class='underline'>Indeed Apply</span> is a <b>KEY</b> integration for us. Sanyam has remained focused on it, and continues to remain focused on it so we can onboard more customers. There are many optimizations to make, and Sanyam is continuing to work on it with focus and dedication.",
+			"Name": "Amrinder Arora",
+			"Position": "CEO",
+			"Company": "ClayHR",
+			"img": "assets/images/testimonial/amrinder-arora.jpg"
+		},
+		{
+			"Comment": "Congratulations on the fantastic work that you have done in <span class='underline'>Checkr Integration</span>. It is great to see your commitment and enthusiasm toward your work. Your efforts are greatly appreciated and I look forward to seeing more of your brilliance in our upcoming work. Thanks again for your contributions. Keep up the good work!",
+			"Name": "Chinki Dhiman",
+			"Position": "Ex-Associate Director",
+			"Company": "ClayHR",
+			"img": "assets/images/testimonial/chinki-dhiman.jpg"
+		},
+		{
+			"Comment": "Our customers depend on the WP plugin to publish the jobs from the <span class='underline'>Applicant Tracking System</span> to their website! Sanyam acted very quickly in getting the plugin reactivated. he was also able to upgrade and test it with the right version of <span class='underline'>WordPress</span> to ensure compatibility with the latest standards!",
+			"Name": "Amrinder Arora",
+			"Position": "CEO",
+			"Company": "ClayHR",
+			"img": "assets/images/testimonial/amrinder-arora.jpg"
+		}
+	]
+}
