@@ -66,7 +66,7 @@ class AppComponent {
         this.titleService = titleService;
         this.metaService = metaService;
         this.languageService = languageService;
-        this.title = "floreceann-portfolio";
+        this.title = "sam-portfolio";
     }
     ngOnInit() {
         this.languageService.initLanguage();
