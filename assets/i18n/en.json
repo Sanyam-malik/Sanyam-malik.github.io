@@ -16,9 +16,9 @@
 			"scrollTo": "projects"
 		},
 		{
-			"name": "Testimonial",
-			"event": "click_testimonial",
-			"scrollTo": "testimonial"
+			"name": "Posts",
+			"event": "click_blogs",
+			"scrollTo": "blogs"
 		},
 		{
 			"name": "Contact",
@@ -123,8 +123,8 @@
 			"Description": "The <span class='underline'>Central Authentication Server</span>, a key component in user authentication for accessing specific services akin to Aperio CAS, employs a dual-database approach. One database is dedicated to reading user information, while the other handles token storage. This design ensures efficiency and separation of concerns in managing user credentials and authentication tokens. The API server supports multiple password encoders, such as <span class='underline'>BCRYPT</span>, <span class='underline'>SCRYPT</span>, <span class='underline'>NoOp</span>, <span class='underline'>PBKDF2</span>, <span class='underline'>Sha256</span>, <span class='underline'>MD5</span>, providing flexibility in implementing robust security measures. Notably, the server is configured to return responses identical to those of the original Aperio CAS server, ensuring seamless integration and interoperability within a broader authentication ecosystem.",
 			"showTechStack": false,
 			"imgs": [
-				"assets/images/cas/1.png",
-				"assets/images/cas/2.png"
+				"assets/images/projects/cas/1.png",
+				"assets/images/projects/cas/2.png"
 			],
 			"ghLink": "",
 			"demoLink": "",
@@ -146,10 +146,10 @@
 			"Description": "The <span class='underline'>ATS (Applicant Tracking System)</span> is a versatile tool designed to seamlessly integrate into existing HR ecosystems. With a focus on streamlining recruitment, the system brings efficiency to the process through features such as resume parsing, collaborative hiring workflows, and automated screening tools. Notably, it excels in facilitating third-party portal integrations, seamlessly connecting with popular platforms like <span class='underline'>Indeed</span>, <span class='underline'>Google</span>, <span class='underline'>Careerjet</span>, and more. Additionally, the system is adept at candidate background verification integrations, with seamless connections to services such as <span class='underline'>Checkr</span> and <span class='underline'>Compufact</span>. This capability further enhances the recruitment process, ensuring a comprehensive and unified experience for organizations in managing candidate information and background checks. The adaptable system continues to provide a user-friendly interface for both recruiters and candidates, promoting a positive and efficient talent acquisition process.",
 			"showTechStack": false,
 			"imgs": [
-				"assets/images/applicant-tracking-system/1.png",
-				"assets/images/applicant-tracking-system/2.png",
-				"assets/images/applicant-tracking-system/3.png",
-				"assets/images/applicant-tracking-system/4.png"
+				"assets/images/projects/applicant-tracking-system/1.png",
+				"assets/images/projects/applicant-tracking-system/2.png",
+				"assets/images/projects/applicant-tracking-system/3.png",
+				"assets/images/projects/applicant-tracking-system/4.png"
 			],
 			"ghLink": "",
 			"demoLink": "",
@@ -178,8 +178,8 @@
 			"Description": "<span class='underline'>Angular Pi-Hole(AngPI)</span> Angular Single Page Application (SPA) specifically designed for <span class='underline'>Pi-Hole (https://pi-hole.net/)</span>. This application comes with enhanced database support, allowing users to easily customize and manage their Pi-Hole configurations. The Angular SPA ensures a responsive and dynamic user interface, while the elevated database integration provides flexibility for personalized settings and blacklists. This project seamlessly combines Angular's capabilities, Pi-Hole's functionality, and advanced database features, delivering an intuitive and customizable solution for effective ad blocking.",
 			"showTechStack": false,
 			"imgs": [
-				"assets/images/angpi/1.png",
-				"assets/images/angpi/2.png"
+				"assets/images/projects/angpi/1.png",
+				"assets/images/projects/angpi/2.png"
 			],
 			"ghLink": "",
 			"demoLink": "",
@@ -200,8 +200,8 @@
 			"Description": "This dedicated platform serves as a <span class='underline'>central hub</span>, empowering candidates to seamlessly navigate and oversee various aspects of their career journey. From tracking application statuses to engaging in real-time communication with hiring teams, the Candidate Portal enhances transparency and collaboration. With an intuitive design, candidates can effortlessly access updates on <span class='underline'>job applications</span> and <span class='underline'>receive feedback</span>. This not only streamlines the communication process but also fosters a more engaged and informed candidate experience. The Candidate Portal in career management acts as a valuable tool, ensuring candidates have the tools and resources they need to navigate their career paths effectively.",
 			"showTechStack": false,
 			"imgs": [
-				"assets/images/candidate-portal/1.png",
-				"assets/images/candidate-portal/2.png"
+				"assets/images/projects/candidate-portal/1.png",
+				"assets/images/projects/candidate-portal/2.png"
 			],
 			"ghLink": "",
 			"demoLink": "",
@@ -229,8 +229,8 @@
 			"Description": "The <span class='underline'>Python Flask API Server</span> for <span class='underline'>Pi-Hole</span> stands out as an innovative project, leveraging the power of the Flask framework to provide a scalable and efficient solution for managing Pi-Hole instances. Notably, it incorporates an elevated database system, allowing users to personalize settings, blacklists, and configurations for a tailored experience. The API documentation, powered by <span class='underline'>Swagger</span>, ensures a user-friendly interface for developers, while the integration of <span class='underline'>JSON Web Tokens (JWT)</span> enhances security by restricting access to authenticated users. This project combines functionality, customization, and security to elevate the Pi-Hole experience for both developers and end-users.",
 			"showTechStack": false,
 			"imgs": [
-				"assets/images/piflask/1.png",
-				"assets/images/piflask/2.png"
+				"assets/images/projects/piflask/1.png",
+				"assets/images/projects/piflask/2.png"
 			],
 			"ghLink": "",
 			"demoLink": "",
@@ -247,20 +247,64 @@
 	"OtherProjects.Title": "Other Noteworthy Projects",
 	"OtherProjects.Projects": [
 		{
-			"Title": "Toronto Recycling Quiz App",
-			"Description": "An ios quiz application about Recycling in Toronto. Allows user to pick their answer. View the result of the quiz. Allows multiple attempts until the user pass the quiz.",
-			"ghLink": "https://github.com/annrobles/QuizApp",
-			"demoLink": "https://github.com/annrobles/QuizApp",
-			"Technologies": ["Swift", "iOS"]
+			"Title": "Job Scraper",
+			"Description": "This Python script is designed to scrape job listings from a specified websites and extract relevant information such as job titles, companies, and locations.",
+			"ghLink": "",
+			"demoLink": "",
+			"Technologies": ["Python", "Flask", "Sqlite"],
+			"showTechStack": false
 		},
 		{
-			"Title": "Habit Tracker App",
-			"Description": "An android habit tracker application, allows users to build a certain habit. User can track and update their habits. Users can also view leaderboard and community.",
-			"ghLink": "https://github.com/annrobles/Habit-Tracker",
-			"demoLink": "https://github.com/annrobles/Habit-Tracker",
-			"Technologies": ["Android", "Java", "FireBase", "Google Cloud", "ROM"]
+			"Title": "Heimdall Angular-Flask Stack",
+			"Description": "Converted Heimdall Dashboard from PHP to Angular + Python Flask Applications.",
+			"ghLink": "",
+			"demoLink": "",
+			"Technologies": ["Python", "Angular", "Bootstrap", "Flask", "Sqlite", "JWT"],
+			"showTechStack": false
+		},
+		{
+			"Title": "School Management System",
+			"Description": "This project is based on spring 3 with spring security 6. The main purpose of this project is to build the spring web application from scratch and securing it with jwt using custom password encoders.",
+			"ghLink": "",
+			"demoLink": "",
+			"Technologies": [
+				"HTML",
+				"CSS",
+				"Java",
+				"AngularJS",
+				"Bootstrap",
+				"Jquery",
+				"Javascript",
+				"Spring Boot",
+				"Spring Web",
+				"Spring Security",
+				"MYSQL",
+				"Spring JPA",
+				"Git"
+			],
+			"showTechStack": false
 		}
 	],
+	"Blogs.Title": "Posts that you may love",
+	"Blogs.Items": [
+		{
+			"Title": "Setting up your first home server",
+			"Icon": "assets/images/blogs/homeserver.jpg",
+			"Description" : "Unlock the world of home server ownership with our step-by-step guide! Learn to choose hardware, install your operating system, and set up essential services for a secure and personalized home server experience. Perfect for beginners, this guide makes server setup easy and accessible."
+		},
+		{
+			"Title": "Accessing your home server from anywhere",
+			"Icon": "assets/images/blogs/vpn.png",
+			"Description" : "Discover the freedom of accessing your home server from anywhere with our comprehensive guide. Whether you're on the go or working remotely, learn the essential steps to set up secure and seamless remote access."
+		},
+		{
+			"Title": "Proprietary v/s OpenSource",
+			"Icon": "assets/images/blogs/opensource.png",
+			"Description" : "Dive into the debate between Proprietary and Open Source software with our insightful guide.Gain a deeper understanding to make informed choices for your projects and discover the dynamic balance between innovation, collaboration, and control in the realm of software solutions."
+		}
+	],
+	"Videos.Title": "Videos that worth a watch",
+	"Videos.Items": [],
 	"Contact.Pretitle": "What’s Next",
 	"Contact.Title": "Get in touch!",
 	"Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
