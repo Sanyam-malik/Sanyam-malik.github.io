@@ -289,17 +289,20 @@
 	"Blogs.Items": [
 		{
 			"Title": "Setting up your first home server",
-			"Icon": "assets/images/blogs/homeserver.jpg",
+			"Icon": "assets/images/blogs/homeserver.png",
+			"Link": "",
 			"Description" : "Unlock the world of home server ownership with our step-by-step guide! Learn to choose hardware, install your operating system, and set up essential services for a secure and personalized home server experience. Perfect for beginners, this guide makes server setup easy and accessible."
 		},
 		{
 			"Title": "Accessing your home server from anywhere",
 			"Icon": "assets/images/blogs/vpn.png",
+			"Link": "",
 			"Description" : "Discover the freedom of accessing your home server from anywhere with our comprehensive guide. Whether you're on the go or working remotely, learn the essential steps to set up secure and seamless remote access."
 		},
 		{
 			"Title": "Proprietary v/s OpenSource",
 			"Icon": "assets/images/blogs/opensource.png",
+			"Link": "",
 			"Description" : "Dive into the debate between Proprietary and Open Source software with our insightful guide.Gain a deeper understanding to make informed choices for your projects and discover the dynamic balance between innovation, collaboration, and control in the realm of software solutions."
 		}
 	],
