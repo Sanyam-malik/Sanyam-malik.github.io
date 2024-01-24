@@ -623,10 +623,10 @@ class BannerComponent {
         this.http.get(`https://api.geoapify.com/v1/ipinfo?apiKey=${src_environments_environment__WEBPACK_IMPORTED_MODULE_0__.environment.geolocationAPIKey}`).subscribe(data => {
             this.latitude = data['location']['latitude'];
             this.longitude = data['location']['longitude'];
-            let city = String(data['city']['name']).split(" ")[0];
-            let state = String(data['state']['name']);
-            let country = String(data['country']['name']);
-            let flag = String(data['country']['flag']);
+            let city = String(data['city'] ? data['city']['name'] : "").split(" ")[0];
+            let state = String(data['state'] ? data['state']['name'] : "");
+            let country = String(data['country'] ? data['country']['name'] : "");
+            let flag = String(data['country'] ? data['country']['flag'] : "");
             this.location = flag + " " + city + ", " + state + ", " + country;
         });
     }
