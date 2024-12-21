@@ -81,6 +81,7 @@
 	"Experience.Jobs": [
 		{
 			"Tab": "ClayHR",
+			"URL": "https://www.linkedin.com/company/clayhr",
 			"Profiles": [
 				{
 					"Title": "Senior Software Enginner",
@@ -245,6 +246,8 @@
 		}
 	],
 	"OtherProjects.Title": "Other Noteworthy Projects",
+	"OtherProjects.ShowMoreButtonLink": "/projects",
+	"OtherProjects.ShowMoreButtonText": "See More Projects",
 	"OtherProjects.Projects": [
 		{
 			"Title": "Job Scraper",
@@ -286,6 +289,8 @@
 		}
 	],
 	"Blogs.Title": "Posts that you may love",
+	"Blogs.ShowMoreButtonLink": "/posts",
+	"Blogs.ShowMoreButtonText": "See More Posts",
 	"Blogs.Items": [
 		{
 			"Title": "Setting up your first home server",
