@@ -1,0 +1,333 @@
+{
+	"Header.Items": [
+		{
+			"name": "About me",
+			"event": "click_about",
+			"scrollTo": "about"
+		},
+		{
+			"name": "Experience",
+			"event": "click_experience",
+			"scrollTo": "jobs"
+		},
+		{
+			"name": "Work",
+			"event": "click_jobs",
+			"scrollTo": "projects"
+		},
+		{
+			"name": "Posts",
+			"event": "click_blogs",
+			"scrollTo": "blogs"
+		},
+		{
+			"name": "Contact",
+			"event": "click_contact",
+			"scrollTo": "contact"
+		}
+	],
+	"Header.cvBtn": "Resume",
+	"Header.bookBtn": "Meet with me",
+	"Header.cvName": "Sanyam_Malik_Resume.pdf",
+	"Banner.Pretitle": "Hello! My name is",
+	"Banner.Title": "Sanyam Malik",
+	"Banner.Posttitle": "I build digital platforms",
+	"Banner.Description": "I'm a software engineer with <span class='underline'>over 5+ years of experience</span>, specializing in developing systems, interfaces, bots, and technological solutions. I pride myself on my ability to translate project requirements into visually appealing and efficient solutions. Currently, I'm employed at <span class='underline'>ThoughtWorks</span>, where I focus on building accessible, human-centered products.",
+	"Banner.ActionBtn": "Get in touch",
+	"Banner.Location": " Your Location: ",
+	"AboutMe.Title": "About me",
+	"AboutMe.Mail": "sanyammalik105@gmail.com",
+	"AboutMe.MeetLink": "mailto:sanyammalik105@gmail.com",
+	"AboutMe.Paragraphs": [
+		"Hey there, I'm Sanyam Malik. I hold a Bachelor's Degree in Computer Science and currently exploring the world of Web App Design and Development. Throughout my career, I've been involved in various large-scale projects, prioritizing responsive design, performance optimization, and cross-functional collaboration. I love turning a project's 'wish list' into something that not only looks great but also performs well.",
+		"On a typical day, you'll find me working hand-in-hand with backend engineers on API integrations, turning designs into actual, clickable things, and squashing bugs with our QA team. I'm all about teamwork, taking ownership of what I do, and always looking for ways to help others grow in their roles, too.",
+		"Some of the technologies that I have trained and worked on include (but are not limited to):"
+	],
+	"AboutMe.conclude": [
+		"So that's a bit about me. Can't wait to bring my skills and passion to some more exciting projects!"
+	],
+	"AboutMe.Skills": [
+		"Java",
+		"Spring MVC",
+		"Spring Boot",
+		"Spring AI",
+		"Spring Security",
+		"API Integrations",
+		"Microservices",
+		"Hibernate",
+		"MySQL / MariaDB",
+		"MongoDB",
+		"PostgresSQL",
+		"AngularJS / Angular",
+		"HTML & (S)CSS",
+		"JavaScript, TypeScript",
+		"Unit Testing",
+		"OpenTelemetry",
+		"Temporal Workflow",
+		"Reactive Programming",
+		"Kafka",
+		"CI / CD"
+	],
+	"AboutMe.Socials": [
+		{
+			"name": "github",
+			"link": "https://github.com/Sanyam-malik",
+			"icon": "fab fa-github"
+		},
+		{
+			"name": "linkedin",
+			"link": "https://www.linkedin.com/in/sanyam-malik-62659415a/",
+			"icon": "fab fa-linkedin-in"
+		}, 
+		{
+			"name": "dev",
+			"link": "https://dev.to/sanyammalik",
+			"icon": "fab fa-brands fa-dev"
+		}
+	],
+	"Experience.Title": "Where I've Worked",
+	"Experience.Jobs": [
+		{
+			"Tab": "ThoughtWorks",
+			"URL": "https://www.linkedin.com/company/thoughtworks",
+			"Profiles": [
+				{
+					"Title": "Senior Consultant",
+					"Date": "August 2024 - Present",
+					"Description": [
+					"Architected and developed three Spring Boot microservices with support for multi-database connectivity, Kafka-based messaging, and Temporal workflow orchestration",
+					"Designed and implemented a strategy layer to dynamically switch between different databases and external APIs, enabling flexible integrations and easier extensibility",
+					"Designed and implemented a Temporal-based retry workflow mechanism using scheduled executions to automatically retry failed workflows from their failure point",
+					"Led the migration of critical services from a Ruby on Rails codebase to Spring Boot, improving maintainability, performance, and ecosystem alignment",
+					"Upgraded two Spring-based microservices from Java 8 to Java 21, modernizing the codebase and enabling use of newer language and JVM features",
+					"Contributed to various High-Level Design (HLD) and Low-Level Design (LLD) discussions to shape scalable and maintainable microservice architectures"
+					]
+				}
+			]
+		},
+		{
+			"Tab": "ClayHR",
+			"URL": "https://www.linkedin.com/company/clayhr",
+			"Profiles": [
+				{
+					"Title": "Senior Software Enginner",
+					"Date": "August 2022 - August 2024",
+					"Description": [
+						"Orchestrated seamless integration with five leading third-party platforms, resulting in a 35% increase in application submissions and broadening the ATS system's reach",
+						"Elevated functionality and user experience of the <span class='underline'>ClayHR Jobboard</span> Google Chrome extension through strategic enhancements and refinements",
+						"Spearheaded the development and maintenance of the company's WordPress plugin, empowering clients and contributing to a 30% rise in user adoption of the ATS system's capabilities",
+						"Innovated the architectural design for Angular applications, implementing robust UI testing methodologies",
+						"Conducted performance assessments, provided strategic guidance, mentorship, and fostered a collaborative and efficient team environment"
+					]
+				}, 
+				{
+					"Title": "Software Enginner",
+					"Date": "August 2020 - August 2022",
+					"Description": [
+						"Developed over 4 Angular Applications, employing modular design by centralizing common components into libraries within the nx workspace.",
+						"Leveraged Java/Spring frameworks to architect and develop scalable web applications and microservices, resulting in a 30% improvement in system performance and responsiveness.",
+						"Led efforts to ensure the quality and reliability of software solutions, resulting in a 15% reduction in post-deployment issues and enhancing overall system stability.",
+						"Optimized interaction with microservices' API endpoints using Spring Data and JPA, resulting in a 25% decrease in API response time and improving overall system efficiency."
+					]
+				}, 
+				{
+					"Title": "Software Enginner - Intern",
+					"Date": "January 2020 - July 2020",
+					"Description": [
+						"Actively engaged in over 10 targeted training sessions and workshops, staying up-to-date on industry trends and gaining valuable knowledge.",
+						"Undertook key responsibilities in active projects, including conducting research and data collection.",
+						"Collaborated with cross-functional teams of developers and managers, consistently meeting 100% of Service Level Agreements (SLAs) on time, thereby preventing any spillovers in critical deadlines"
+					]
+				}
+			]
+		}
+	],
+	"FeatureProjects.Title": "Some Things I've Built",
+	"FeatureProjects.Label": "Featured Project",
+	"FeatureProjects.Projects": [
+		{
+			"Title": "GitDrive",
+			"Description": "A browser-based Git management platform that enables users to clone and manage repositories through an intuitive UI without requiring local setup. The application supports file operations such as creating, deleting, renaming, and editing files directly within the repository, along with secure encryption and decryption of files and folders for enhanced data protection.",
+			"showTechStack": true,
+			"imgs": [
+				"assets/images/projects/gitdrive/1.png",
+				"assets/images/projects/gitdrive/2.png",
+				"assets/images/projects/gitdrive/3.png"
+			],
+			"ghLink": "",
+			"demoLink": "",
+			"Technologies": [
+				"HTML",
+				"CSS",
+				"Bootstrap",
+				"Jquery",
+				"Javascript",
+				"Git",
+				"Python",
+				"Docker"
+			]
+		},
+		{
+			"Title": "PKG-Cacher",
+			"Description": "A lightweight mirror-style reverse proxy cache for Linux package managers, Gradle distributions, GitHub releases, and any HTTP artifact source.",
+			"showTechStack": true,
+			"imgs": [
+				"assets/images/projects/pkg-cacher/1.png",
+				"assets/images/projects/pkg-cacher/2.png",
+				"assets/images/projects/pkg-cacher/3.png"
+			],
+			"ghLink": "",
+			"demoLink": "",
+			"Technologies": [
+				"Nginx",
+				"Docker"
+			]
+		},
+		{
+			"Title": "VersionCI",
+			"Description": "A distributed version management system consisting of a CLI and backend service that tracks and manages application versions outside the repository. The tool links to Git repositories and assigns versions per branch, removing the need to bump version files on each commit while supporting parallel version streams (e.g., main → v1.x, release → v0.6).",
+			"showTechStack": true,
+			"imgs": [
+				"assets/images/projects/versionci/1.png",
+				"assets/images/projects/versionci/2.png"
+			],
+			"ghLink": "",
+			"demoLink": "",
+			"Technologies": [
+				"Python",
+				"Docker"
+			]
+		},
+		{
+			"Title": "Static Pages",
+			"Description": "A static site hosting solution that brings GitHub Pages - like functionality to open-source Git servers such as Forgejo, Gitea, and Gogs, allowing users to deploy static websites directly from their repositories.",
+			"showTechStack": true,
+			"imgs": [
+				"assets/images/projects/static-pages/1.png",
+				"assets/images/projects/static-pages/2.png"
+			],
+			"ghLink": "",
+			"demoLink": "",
+			"Technologies": [
+				"Nginx",
+				"Python",
+				"Flask",
+				"Docker"
+			]
+		}
+	],
+	"OtherProjects.Title": "Other Noteworthy Projects",
+	"OtherProjects.OtherTitle": "Other Projects I have worked on",
+	"OtherProjects.ShowMoreButtonLink": "/projects",
+	"OtherProjects.ShowMoreButtonText": "See More Projects",
+	"OtherProjects.Projects": [
+		{
+			"Title": "Krust Rule Engine",
+			"Description": "A lightweight Java-based rule engine inspired by Easy Rules that allows defining rules using JSON. The engine supports multiple rule sources such as classpath, filesystem, and custom data sources, enabling flexible rule loading and extensibility.",
+			"ghLink": "",
+			"demoLink": "",
+			"Technologies": ["Java"],
+			"showTechStack": true
+		},
+		{
+			"Title": "Gradle Distribution Mirror",
+			"Description": "A lightweight, self-hosted Gradle distribution mirror designed to reduce dependency on external downloads and improve build reliability. The system synchronizes stable Gradle releases, performs SHA256 verification for integrity. It also provides full Gradle Wrapper compatibility and a modern web UI.",
+			"ghLink": "",
+			"demoLink": "",
+			"Technologies": ["Java", "Gradle", "Docker"],
+			"showTechStack": true
+		},
+		{
+			"Title": "BanBot",
+			"Description": "A Java-based Proof of Work (PoW) protection system designed to regulate AI bot crawling on websites. The system challenges clients with computational tasks before allowing access, helping mitigate automated scraping and uncontrolled AI crawler traffic.",
+			"ghLink": "",
+			"demoLink": "",
+			"Technologies": ["Java", "Docker"],
+			"showTechStack": true
+		}
+	],
+	"Blogs.Title": "Posts that you may love",
+	"Blogs.OtherTitle": "More Posts from me",
+	"Blogs.ShowMoreButtonLink": "/posts",
+	"Blogs.ShowMoreButtonText": "See More Posts",
+	"Blogs.Items": [
+		{
+			"Title": "How I Set Up My First Home Server",
+			"Icon": "assets/images/blogs/homeserver.png",
+			"Link": "/posts/first-home-server",
+			"Description": "A beginner-friendly guide to setting up your first home server. Learn how to choose the right hardware, install an operating system, and configure essential services to build a secure and reliable personal server for hosting applications, storage, and automation."
+		},
+		{
+			"Title": "Why I Chose Twingate for My VPN",
+			"Icon": "assets/images/blogs/vpn.png",
+			"Link": "/posts/vpn-home-server",
+			"Description": "A practical overview of how I use Twingate to securely access my home server from anywhere. This guide explains the setup process, benefits over traditional VPNs, and how it enables safe and seamless remote access to self-hosted services."
+		},
+		{
+			"Title": "Open Source vs “Source Available”: Understanding OSI Licenses",
+			"Icon": "assets/images/blogs/opensource.png",
+			"Link": "/posts/opensource",
+			"Description": "An exploration of the difference between true open source software and “source-available” licenses used by some modern projects. This article explains what qualifies as an OSI-approved license, why licenses like SSPL (used by MongoDB) are controversial, and how licensing choices impact developers, companies, and the open source ecosystem."
+		},
+		{
+			"Title": "Why I Switched from GitHub to Forgejo",
+			"Icon": "assets/images/blogs/forgejo.png",
+			"Link": "/posts/switch-to-forgejo",
+			"Description": "A look at why I moved my repositories from GitHub to Forgejo, focusing on concerns around AI training on public code, platform control, and the benefits of self-hosted and community-driven Git services."
+		},
+		{
+			"Title": "Automating Infrastructure with Ansible and Semaphore",
+			"Icon": "assets/images/blogs/automation.png",
+			"Link": "/posts/ansible-semaphore",
+			"Description": "A guide on using Ansible with Semaphore to automate infrastructure tasks. Covers writing playbooks, configuring Semaphore, and managing automated deployments and maintenance tasks in a clean and repeatable workflow."
+		},
+		{
+			"Title": "Switching from Jenkins to Forgejo Actions",
+			"Icon": "assets/images/blogs/ci.png",
+			"Link": "/posts/jenkins-to-actions",
+			"Description": "An overview of migrating CI/CD pipelines from Jenkins to Forgejo Actions. This article explains the motivations, migration process, and how Forgejo Actions simplifies automation while integrating seamlessly with self-hosted Git workflows."
+		},
+		{
+			"Title": "Creating Static Pages as an Alternative to GitHub Pages",
+			"Icon": "assets/images/blogs/staticpages.png",
+			"Link": "/posts/static-pages",
+			"Description": "A guide to building and using Static Pages as a self-hosted alternative to GitHub Pages. Learn how to deploy static websites directly from repositories on Forgejo, Gitea, or Gogs and host your sites without relying on proprietary platforms."
+		},
+		{
+			"Title": "Distributed tracing with Jaeger and Spring boot",
+			"Icon": "assets/images/blogs/jaeger.png",
+			"Link": "",
+			"Description": "An introduction to distributed tracing using Jaeger with Spring Boot applications. This article explains the basics of tracing, how to integrate Jaeger into Spring services, and how it helps visualize and debug requests across microservices."
+		}
+	],
+	"Videos.Title": "Videos that worth a watch",
+	"Videos.Items": [],
+	"Contact.Pretitle": "What's Next",
+	"Contact.Title": "Get in touch!",
+	"Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+	"Contact.Btn": "Say Hello",
+	"Testimonial.Title": "Other's impressions of me",
+	"Testimonial.Items": [
+		{
+			"Comment": "<span class='underline'>Indeed Apply</span> is a <b>KEY</b> integration for us. Sanyam has remained focused on it, and continues to remain focused on it so we can onboard more customers. There are many optimizations to make, and Sanyam is continuing to work on it with focus and dedication.",
+			"Name": "Amrinder Arora",
+			"Position": "CEO",
+			"Company": "ClayHR",
+			"img": "assets/images/testimonial/amrinder-arora.jpg"
+		},
+		{
+			"Comment": "Congratulations on the fantastic work that you have done in <span class='underline'>Checkr Integration</span>. It is great to see your commitment and enthusiasm toward your work. Your efforts are greatly appreciated and I look forward to seeing more of your brilliance in our upcoming work. Thanks again for your contributions. Keep up the good work!",
+			"Name": "Chinki Dhiman",
+			"Position": "Ex-Associate Director",
+			"Company": "ClayHR",
+			"img": "assets/images/testimonial/chinki-dhiman.jpg"
+		},
+		{
+			"Comment": "Our customers depend on the WP plugin to publish the jobs from the <span class='underline'>Applicant Tracking System</span> to their website! Sanyam acted very quickly in getting the plugin reactivated. he was also able to upgrade and test it with the right version of <span class='underline'>WordPress</span> to ensure compatibility with the latest standards!",
+			"Name": "Amrinder Arora",
+			"Position": "CEO",
+			"Company": "ClayHR",
+			"img": "assets/images/testimonial/amrinder-arora.jpg"
+		}
+	]
+}
