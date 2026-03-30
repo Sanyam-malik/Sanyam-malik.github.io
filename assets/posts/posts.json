@@ -1,0 +1,111 @@
+[
+  {
+    "Title": "Creating Static Pages as an Alternative to GitHub Pages",
+    "Icon": "assets/posts/static-pages/cover.png",
+    "Link": "/posts/static-pages",
+    "Description": "A guide to building and using Static Pages as a self-hosted alternative to GitHub Pages. Learn how to deploy static websites directly from repositories on Forgejo, Gitea, or Gogs and host your sites without relying on proprietary platforms.",
+    "Date": "2022-03-06T00:00:00.000Z",
+    "Categories": [
+      "general"
+    ],
+    "Tags": [
+      "general"
+    ],
+    "Weight": 7
+  },
+  {
+    "Title": "Switching from Jenkins to Forgejo Actions",
+    "Icon": "assets/posts/jenkins-to-actions/cover.png",
+    "Link": "/posts/jenkins-to-actions",
+    "Description": "An overview of migrating CI/CD pipelines from Jenkins to Forgejo Actions. This article explains the motivations, migration process, and how Forgejo Actions simplifies automation while integrating seamlessly with self-hosted Git workflows.",
+    "Date": "2022-03-06T00:00:00.000Z",
+    "Categories": [
+      "homelab",
+      "selfhosting"
+    ],
+    "Tags": [
+      "homelab"
+    ],
+    "Weight": 6
+  },
+  {
+    "Title": "Why I Switched from GitHub to Forgejo",
+    "Icon": "assets/posts/switch-to-forgejo/cover.png",
+    "Link": "/posts/switch-to-forgejo",
+    "Description": "A look at why I moved my repositories from GitHub to Forgejo, focusing on concerns around AI training on public code, platform control, and the benefits of self-hosted and community-driven Git services.",
+    "Date": "2022-03-06T00:00:00.000Z",
+    "Categories": [
+      "selfhosting",
+      "homelab"
+    ],
+    "Tags": [
+      "homelab"
+    ],
+    "Weight": 5
+  },
+  {
+    "Title": "Automating Infrastructure with Ansible and Semaphore",
+    "Icon": "assets/posts/ansible-semaphore/cover.png",
+    "Link": "/posts/ansible-semaphore",
+    "Description": "A guide on using Ansible with Semaphore to automate infrastructure tasks. Covers writing playbooks, configuring Semaphore, and managing automated deployments and maintenance tasks in a clean and repeatable workflow.",
+    "Date": "2022-03-06T00:00:00.000Z",
+    "Categories": [
+      "homelab",
+      "selfhosting"
+    ],
+    "Tags": [
+      "homelab",
+      "ansible"
+    ],
+    "Weight": 4
+  },
+  {
+    "Title": "Open Source vs “Source Available” Understanding OSI Licenses",
+    "Icon": "assets/posts/opensource/cover.png",
+    "Link": "/posts/opensource",
+    "Description": "An exploration of the difference between true open source software and “source-available” licenses used by some modern projects. This article explains what qualifies as an OSI-approved license, why licenses like SSPL (used by MongoDB) are controversial, and how licensing choices impact developers, companies, and the open source ecosystem.",
+    "Date": "2022-03-06T00:00:00.000Z",
+    "Categories": [
+      "general"
+    ],
+    "Tags": [
+      "general"
+    ],
+    "Weight": 3
+  },
+  {
+    "Title": "How I Set Up My First Home Server",
+    "Icon": "assets/posts/first-home-server/cover.png",
+    "Link": "/posts/first-home-server",
+    "Description": "A beginner-friendly guide to setting up your first home server. Learn how to choose the right hardware, install an operating system, and configure essential services to build a secure and reliable personal server for hosting applications, storage, and automation.",
+    "Date": "2022-03-06T00:00:00.000Z",
+    "Categories": [
+      "homelab",
+      "selfhosting"
+    ],
+    "Tags": [
+      "homelab",
+      "ubuntu",
+      "raspberrypi",
+      "docker"
+    ],
+    "Weight": 2
+  },
+  {
+    "Title": "Why I Chose Twingate for My VPN",
+    "Icon": "assets/posts/vpn-home-server/cover.png",
+    "Link": "/posts/vpn-home-server",
+    "Description": "A practical overview of how I use Twingate to securely access my home server from anywhere. This guide explains the setup process, benefits over traditional VPNs, and how it enables safe and seamless remote access to self-hosted services.",
+    "Date": "2022-03-06T00:00:00.000Z",
+    "Categories": [
+      "homelab",
+      "selfhosting"
+    ],
+    "Tags": [
+      "homelab",
+      "ubuntu",
+      "docker"
+    ],
+    "Weight": 1
+  }
+]
